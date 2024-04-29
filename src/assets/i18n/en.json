@@ -1,5 +1,21 @@
 {
-  "navbar": {},
-  "footer": {},
-  "homesection": {}
+  "app-navbar": {
+    "Home": "Home",
+    "About": "About",
+    "ourServices": "Our Services"
+  },
+
+  " app-home-section": {},
+
+  " app-about-section": {},
+
+  "app-our-services-section": {},
+
+  "app-projects-section": {},
+
+  " app-clients-section": {},
+
+  " app-contact-us": {},
+
+  "app-footer": {}
 }

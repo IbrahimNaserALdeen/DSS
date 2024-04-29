@@ -1,0 +1,21 @@
+{
+  "app-navbar": {
+    "Home": "الرئيسية",
+    "About": "من نحن",
+    "ourServices": "خدماتنا"
+  },
+
+  " app-home-section": {},
+
+  " app-about-section": {},
+
+  "app-our-services-section": {},
+
+  "app-projects-section": {},
+
+  " app-clients-section": {},
+
+  " app-contact-us": {},
+
+  "app-footer": {}
+}
