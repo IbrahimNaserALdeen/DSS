@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+/* Add your custom CSS styles here */
+body {
+  padding-top: 70px; /* Adjust body padding to match height of header */
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
