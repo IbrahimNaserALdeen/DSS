@@ -2,7 +2,8 @@
   "app-navbar": {
     "Home": "Home",
     "About": "About",
-    "ourServices": "Our Services"
+    "ourServices": "Our Services",
+    "Contact": "Contact Us"
   },
 
   " app-home-section": {},

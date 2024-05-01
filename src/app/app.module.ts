@@ -22,6 +22,21 @@ import { ServicespageComponent } from './pages/ourServicesSection/servicespage/s
 import { FeatureComponent } from './Blogging/feature/feature/feature.component';
 import { TeamComponent } from './Blogging/team/team/team.component';
 import { Fearuer2Component } from './Blogging/featuer2/fearuer2/fearuer2.component';
+import { TopbarStartComponent } from './Blogging/topbar_start/topbar-start/topbar-start.component';
+import { FeatuerFactsComponent } from './Blogging/featuer_facts/featuer-facts/featuer-facts.component';
+import { AboutUsScreenComponent } from './Blogging/about_us_screen/about-us-screen/about-us-screen.component';
+import { ServicesScreenComponent } from './Blogging/services_screen/services-screen/services-screen.component';
+import { ContactUsScreenComponent } from './Blogging/contact_us_screen/contact-us-screen/contact-us-screen.component';
+import { ContactUsPageComponent } from './pages/contact_us_page/contact-us-page/contact-us-page.component';
+import { LmsPageComponent } from './pages/lms/lms-page/lms-page.component';
+import { LmsComponent } from './Blogging/lms_screen/lms/lms.component';
+import { OurServiceLmsComponent } from './Blogging/our_service_lms/our-service-lms/our-service-lms.component';
+import { LmsOurProjectComponent } from './Blogging/lms_our_project/lms-our-project/lms-our-project.component';
+import { WhyDssComponent } from './Blogging/why_dss/why-dss/why-dss.component';
+import { LmsOfferComponent } from './Blogging/lms_offer/lms-offer/lms-offer.component';
+import { FaqComponent } from './Blogging/faq/faq/faq.component';
+//import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
+// Import OwlModule
 
 @NgModule({
   declarations: [
@@ -35,15 +50,30 @@ import { Fearuer2Component } from './Blogging/featuer2/fearuer2/fearuer2.compone
     OurServicesSectionComponent,
     ProjectsSectionComponent,
     AboutpageComponent,
+
     HomePageComponent,
     ServicespageComponent,
     FeatureComponent,
     TeamComponent,
     Fearuer2Component,
+    TopbarStartComponent,
+    FeatuerFactsComponent,
+    AboutUsScreenComponent,
+    ServicesScreenComponent,
+    ContactUsScreenComponent,
+    ContactUsPageComponent,
+    LmsPageComponent,
+    LmsComponent,
+    OurServiceLmsComponent,
+    LmsOurProjectComponent,
+    WhyDssComponent,
+    LmsOfferComponent,
+    FaqComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     // ngx-translate and the loader module
     HttpClientModule,
     TranslateModule.forRoot({
@@ -54,6 +84,9 @@ import { Fearuer2Component } from './Blogging/featuer2/fearuer2/fearuer2.compone
         deps: [HttpClient],
       },
     }),
+    // OwlModule
+
+    // RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent],
