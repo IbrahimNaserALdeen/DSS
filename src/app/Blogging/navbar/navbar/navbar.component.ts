@@ -35,10 +35,23 @@ export class NavbarComponent {
     this.setDirection();
   }
   setDirection() {
+    // if (this.lang === 'ar') {
+    //   document.documentElement.dir = 'rtl';
+    // } else {
+    //   document.documentElement.dir = 'ltr';
+    // }
     if (this.lang === 'ar') {
       document.documentElement.dir = 'rtl';
+      document.querySelectorAll('*').forEach((element: any) => {
+        // Type assertion
+        element.dir = 'rtl';
+      });
     } else {
       document.documentElement.dir = 'ltr';
+      document.querySelectorAll('*').forEach((element: any) => {
+        // Type assertion
+        element.dir = 'ltr';
+      });
     }
   }
 }

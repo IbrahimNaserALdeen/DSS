@@ -2,7 +2,8 @@
   "app-navbar": {
     "Home": "الرئيسية",
     "About": "من نحن",
-    "ourServices": "خدماتنا"
+    "ourServices": "خدماتنا",
+    "Contact": "أتصل بنا"
   },
 
   " app-home-section": {},

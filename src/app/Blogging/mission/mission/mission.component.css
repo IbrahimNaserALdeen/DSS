@@ -1,0 +1,42 @@
+/*------------------------------*/
+/*--Section Name----------------*/
+/*------------------------------*/
+.block-33 {
+  --block-background: white;
+  --block-text-color: var(--textprimaryTheam);
+  background: var(--block-background);
+  color: var(--block-text-color);
+}
+
+.block__header {
+  margin-bottom: 4rem;
+}
+
+.block__title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+@media (min-width: 992px) {
+  .block__title {
+    font-size: 2.5rem;
+  }
+}
+
+.block__paragraph {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.block-33__img-container {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.block-33__img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.09);
+}

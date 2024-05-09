@@ -1,0 +1,44 @@
+.client-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.client-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.client-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.client-item:hover .overlay {
+  opacity: 1;
+}
+
+.client-item .client-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.client-item:hover .client-caption {
+  opacity: 1;
+}
+
+/* Adjust the size of the carousel images */
+.carousel-item img {
+  height: 150px; /* Adjust the height as needed */
+  object-fit: contain;
+}
