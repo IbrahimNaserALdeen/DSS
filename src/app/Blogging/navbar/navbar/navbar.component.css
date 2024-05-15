@@ -2,3 +2,18 @@
   position: absolute;
   /* top: 2rem; */
 }
+.bg-rgba {
+  background-color: rgba(
+    9,
+    108,
+    124,
+    .95
+  ); /* خلفية بلون معين وشفافية بنسبة 70٪ */
+}
+ 
+@media (min-width: 992px){
+.sticky-top.navbar-dark {
+  position: fixed !important;
+  background: #167383 !important;
+}
+}

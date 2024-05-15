@@ -140,3 +140,6 @@ body {
 .top-margin .testimonial-block .row {
   align-items: normal;
 }
+.bg-darks{
+  background-color: #aed9db !important;
+}
