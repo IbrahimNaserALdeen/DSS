@@ -14,7 +14,7 @@ export class ContactUsComponent {
   submitForm() {
     this.http.post('http://localhost:3000/send-email', this.formData).subscribe(
       (response) => {
-        console.log('Email sent successfully', response);
+        console.log('Email sent s uccessfully', response);
         // You can add a success message here
       },
       (error) => {

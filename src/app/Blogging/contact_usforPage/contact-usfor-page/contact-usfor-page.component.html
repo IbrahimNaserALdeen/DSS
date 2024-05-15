@@ -186,7 +186,7 @@
   </div>
 </div> -->
 
-<div class="container-fluid px-5 my-5">
+<!-- <div class="container-fluid px-5 my-5">
   <div class="row justify-content-center">
     <div class="col-xl-10">
       <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
@@ -201,9 +201,9 @@
                 <p class="mb-4 text-muted">Split layout contact form</p>
               </div>
 
-              <!-- Contact Form -->
+             
               <form action="https://formspree.io/f/mrgnjnqj" method="POST">
-                <!-- Email Input -->
+     
                 <div class="form-floating mb-3">
                   <input
                     class="form-control"
@@ -216,7 +216,6 @@
                   <label for="email">Your Email Address</label>
                 </div>
 
-                <!-- Message Input -->
                 <div class="form-floating mb-3">
                   <textarea
                     class="form-control"
@@ -229,7 +228,7 @@
                   <label for="message">Your Message</label>
                 </div>
 
-                <!-- Submit button -->
+
                 <div class="d-grid">
                   <button
                     class="btn btn-primary btn-lg"
@@ -240,8 +239,65 @@
                   </button>
                 </div>
               </form>
-              <!-- End of contact form -->
+       
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+<div class="container px-2 px-md-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="row g-0">
+          <div class="col-md-6 d-none d-md-block">
+            <img src="../../../../assets/img/contact-img.png" class="img-fluid" alt="Contact Image">
+          </div>
+          <div class="col-md-6 p-4">
+            <div class="text-center">
+              <div class="h3 fw-light">Contact Form</div>
+              <p class="mb-4 text-muted">Split layout contact form</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/mrgnjnqj" method="POST">
+              <!-- Email Input -->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Your Email Address"
+                  required
+                />
+                <label for="email">Your Email Address</label>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  style="height: 10rem"
+                  required
+                ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <!-- Submit button -->
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Send</button>
+              </div>
+            </form>
+            <!-- End of contact form -->
           </div>
         </div>
       </div>
@@ -249,5 +305,75 @@
   </div>
 </div>
 
+ <script>
+  document.querySelector('form').addEventListener('submit', function () {
+    location.reload();
+  });
+</script> 
+
 <!-- CDN Link to SB Forms Scripts -->
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+
+
+
+
+
+
+<div class="container px-2 px-md-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="row g-0">
+          <div class="col-md-6 d-none d-md-block">
+            <img src="../../../../assets/img/contact-img.png" class="img-fluid" alt="Contact Image">
+          </div>
+          <div class="col-md-6 p-4">
+            <div class="text-center">
+              <div class="h3 fw-light">Contact Form</div>
+              <p class="mb-4 text-muted">Split layout contact form</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/xwkgzqkg" method="POST">
+              <!-- Email Input -->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Your Email Address"
+                  required
+                />
+                <label for="email">Your Email Address</label>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  style="height: 10rem"
+                  required
+                ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <!-- Submit button -->
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Send</button>
+              </div>
+            </form>
+            <!-- End of contact form -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

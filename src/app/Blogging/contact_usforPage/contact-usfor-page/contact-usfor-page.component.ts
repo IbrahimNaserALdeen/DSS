@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-usfor-page.component.css'],
 })
 export class ContactUsforPageComponent {
-  reloadPage() {
-    setTimeout(() => {
-      // Reload current route
-      window.location.reload();
-      // or
-      // window.location.href = window.location.href;
-    }, 2000);
-  }
+  // reloadPage() {
+  //   setTimeout(() => {
+  //     // Reload current route
+  //     window.location.reload();
+  //     // or
+  //     // window.location.href = window.location.href;
+  //   }, 2000);
+  // }
 }

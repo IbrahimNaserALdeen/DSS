@@ -1,3 +1,10 @@
 .owl-carousel {
   display: block !important;
 }
+
+
+.carousel-caption{
+  right: 0 !important;
+  left: 0 !important;
+  width: 100%;
+}
