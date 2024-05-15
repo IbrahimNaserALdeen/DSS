@@ -41,6 +41,12 @@ import { VisionComponent } from './Blogging/vision/vision/vision.component';
 import { MissionComponent } from './Blogging/mission/mission/mission.component';
 import { ContactUsforPageComponent } from './Blogging/contact_usforPage/contact-usfor-page/contact-usfor-page.component';
 import { FormsModule } from '@angular/forms';
+import { HomeBackToTopComponent } from './Blogging/home_back_to_top/home-back-to-top/home-back-to-top.component';
+import { AboutUsBackToTopComponent } from './Blogging/about_us_back_to_top/about-us-back-to-top/about-us-back-to-top.component';
+import { ContactBackComponent } from './Blogging/contact_us_back_to_top/contact-back/contact-back.component';
+import { OurServicesBackToTopComponent } from './Blogging/our_services_back_to_top/our-services-back-to-top/our-services-back-to-top.component';
+import { ContactWithUsComponent } from './Blogging/contact_with_us_in_number/contact-with-us/contact-with-us.component';
+
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
 
@@ -80,6 +86,11 @@ import { FormsModule } from '@angular/forms';
     VisionComponent,
     MissionComponent,
     ContactUsforPageComponent,
+    HomeBackToTopComponent,
+    AboutUsBackToTopComponent,
+    ContactBackComponent,
+    OurServicesBackToTopComponent,
+    ContactWithUsComponent,
   ],
   imports: [
     BrowserModule,
