@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,12 +7,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-usfor-page.component.css'],
 })
 export class ContactUsforPageComponent {
-  // reloadPage() {
-  //   setTimeout(() => {
-  //     // Reload current route
-  //     window.location.reload();
-  //     // or
-  //     // window.location.href = window.location.href;
-  //   }, 2000);
-  // }
+
+  formData = {
+    name: '',
+    emailAddress: '',
+    message: ''
+  };
+
+  submitted = false;
+  error = false;
+
+  constructor(private http: HttpClient) { }
+
+  submitForm() {
+    this.http.post('https://formspree.io/f/xwkgzqkg', this.formData)
+      .subscribe(
+        response => {
+          console.log('Form submission successful:', response);
+          this.submitted = true;
+          this.error = false;
+        },
+        error => {
+          console.error('Error sending message:', error);
+          this.submitted = false;
+          this.error = true;
+        }
+      );
+  }
+
 }

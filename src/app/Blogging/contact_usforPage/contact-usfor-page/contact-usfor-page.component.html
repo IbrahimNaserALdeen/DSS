@@ -26,11 +26,7 @@
           </div>
         </div>
         <p class="mb-4">
-          Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd
-          ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum
-          sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et.
-          Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea
-          dolore sanctus sed et. Takimata takimata sanctus sed.
+          Ready to elevate your online presence? Get in touch for a complimentary quote and discover how our IT solutions can redefine your digital landscape
         </p>
         <div
           class="d-flex align-items-center mt-2 wow zoomIn"
@@ -249,7 +245,7 @@
 </div> -->
 
 
-
+<!-- 
 <div class="container px-2 px-md-5 my-5">
   <div class="row justify-content-center">
     <div class="col-lg-10">
@@ -265,9 +261,9 @@
             </div>
 
             <!-- Contact Form -->
-            <form action="https://formspree.io/f/mrgnjnqj" method="POST">
+            <!-- <form action="https://formspree.io/f/mrgnjnqj" method="POST"> -->
               <!-- Email Input -->
-              <div class="form-floating mb-3">
+              <!-- <div class="form-floating mb-3">
                 <input
                   class="form-control"
                   id="email"
@@ -277,10 +273,10 @@
                   required
                 />
                 <label for="email">Your Email Address</label>
-              </div>
+              </div> -->
 
               <!-- Message Input -->
-              <div class="form-floating mb-3">
+              <!-- <div class="form-floating mb-3">
                 <textarea
                   class="form-control"
                   id="message"
@@ -290,90 +286,91 @@
                   required
                 ></textarea>
                 <label for="message">Your Message</label>
-              </div>
+              </div> -->
 
               <!-- Submit button -->
-              <div class="d-grid">
+              <!-- <div class="d-grid">
                 <button class="btn btn-primary btn-lg" type="submit">Send</button>
               </div>
-            </form>
+            </form> -->
             <!-- End of contact form -->
-          </div>
+          <!-- </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div>  -->
 
- <script>
+ <!-- <script>
   document.querySelector('form').addEventListener('submit', function () {
     location.reload();
   });
-</script> 
+</script>  -->
 
 <!-- CDN Link to SB Forms Scripts -->
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+  <!-- #region 
+  -->
 
 
 
+  <div class="container-fluid px-5 my-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-md-6 d-none d-md-block">
+                <img src="../../../../assets/img/contact-img.png" class="img-fluid" alt="Contact Image">
+              </div>
+              <div class="col-sm-6 p-4">
 
-
-
-
-
-
-<div class="container px-2 px-md-5 my-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-10">
-      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
-        <div class="row g-0">
-          <div class="col-md-6 d-none d-md-block">
-            <img src="../../../../assets/img/contact-img.png" class="img-fluid" alt="Contact Image">
-          </div>
-          <div class="col-md-6 p-4">
-            <div class="text-center">
-              <div class="h3 fw-light">Contact Form</div>
-              <p class="mb-4 text-muted">Split layout contact form</p>
+                <div class="text-center">
+                  <div class="h3 fw-light">Contact Form</div>
+                  <p class="mb-4 text-muted">Split layout contact form</p>
+                </div>
+  
+                <form id="contactForm" (ngSubmit)="submitForm()" #contactForm="ngForm">
+                  <!-- Name Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" name="name" [(ngModel)]="formData.name" required />
+                    <label for="name">Name</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+  
+                  <!-- Email Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" name="emailAddress" [(ngModel)]="formData.emailAddress" required />
+                    <label for="emailAddress">Email Address</label>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+  
+                  <!-- Message Input -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required" name="message" [(ngModel)]="formData.message" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+  
+                  <!-- Submit button -->
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid">Submit</button>
+                  </div>
+                </form>
+                <!-- End of contact form -->
+  
+                <div class="text-center mt-3">
+                  <div *ngIf="submitted && !error" class="text-success">Form submission successful!</div>
+                  <div *ngIf="error" class="text-danger">Error sending message!</div>
+                </div>
+  
+              </div>
             </div>
-
-            <!-- Contact Form -->
-            <form action="https://formspree.io/f/xwkgzqkg" method="POST">
-              <!-- Email Input -->
-              <div class="form-floating mb-3">
-                <input
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="Your Email Address"
-                  required
-                />
-                <label for="email">Your Email Address</label>
-              </div>
-
-              <!-- Message Input -->
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  id="message"
-                  name="message"
-                  placeholder="Your Message"
-                  style="height: 10rem"
-                  required
-                ></textarea>
-                <label for="message">Your Message</label>
-              </div>
-
-              <!-- Submit button -->
-              <div class="d-grid">
-                <button class="btn btn-primary btn-lg" type="submit">Send</button>
-              </div>
-            </form>
-            <!-- End of contact form -->
+  
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
+  
