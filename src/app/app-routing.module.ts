@@ -7,6 +7,7 @@ import { ContactUsComponent } from './Blogging/contact_us/contact-us/contact-us.
 import { ContactUsPageComponent } from './pages/contact_us_page/contact-us-page/contact-us-page.component';
 import { LmsPageComponent } from './pages/lms/lms-page/lms-page.component';
 import { GalleryPageComponent } from './pages/gallery_page/gallery-page/gallery-page.component';
+import { SecurityPageComponent } from './pages/security-page/security-page/security-page.component';
 
 const routes: Routes = [
   { path: 'AboutUs', component: AboutpageComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'ContactUs', component: ContactUsPageComponent },
   { path: 'Home/Lms', component: LmsPageComponent },
   { path: 'Gallery', component: GalleryPageComponent },
-
+ 
+  { path: 'Home/Security', component:  SecurityPageComponent },
 ];
 
 @NgModule({
