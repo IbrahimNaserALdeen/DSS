@@ -1,0 +1,118 @@
+<div class="container-fluid">
+  <div class="px-lg-5">
+    <div class="row py-5">
+      <div class="col-lg-12 mx-auto">
+        <div class="text-white p-5 shadow-sm rounded banner">
+          <h1 class="display-4">Deep services solution products</h1>
+          <p class="lead">Our work is distinguished and modern.</p>
+          <!-- <p class="lead">
+            Snippet by
+            <a href="https://bootstrapious.com/snippets" class="text-reset">Bootstrapious</a>,
+            Images by <a href="https://unsplash.com" class="text-reset">Unsplash</a>.
+          </p> -->
+        </div>
+      </div>
+    </div>
+    <!-- btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft -->
+    <!-- <div class="btn-group mb-3" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary py-md-3 px-md-5 me-3" (click)="showAll()">Show All</button>
+      <button type="button" class="btn btn-primary py-md-3 px-md-5 me-3" (click)="showFirstFour()">Show First Four</button>
+      <button type="button" class="btn btn-primary py-md-3 px-md-5 me-3" (click)="showNextTherd()">Trend</button>
+      <button type="button" class="btn btn-primary py-md-3 px-md-5 me-3" (click)="showNextFour()">Show Next Four</button>
+      <button type="button" class="btn btn-primary py-md-3 px-md-5 me-3" (click)="showNextFive()">Hot</button>
+    </div> -->
+    <div class="">
+      <div class="d-flex flex-wrap justify-content-start mb-3" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary py-2 px-3 m-1" (click)="showAll()">Show All</button>
+        <button type="button" class="btn btn-primary py-2 px-3 m-1" (click)="showFirstFour()">Website</button>
+        <button type="button" class="btn btn-primary py-2 px-3 m-1" (click)="showNextTherd()">Photoshop</button>
+        <button type="button" class="btn btn-primary py-2 px-3 m-1" (click)="showNextFour()">Test</button>
+        <button type="button"  class="btn btn-primary py-2 px-3 m-1" (click)="showNextFive()">Logo</button>
+        
+        <button type="button"  class="btn btn-primary py-2 px-3 m-1" (click)="showNextApp()">Apps</button>
+      </div>
+    </div>
+    <!-- <img src="../../../../assets/img/logoSJ.png" alt=""> -->
+    
+    <!-- <div class="row">
+      <div *ngFor="let item of displayedPictures" class="col-xl-3 col-lg-4 col-md-6 mb-4">
+        <div class="bg-white rounded shadow-sm">
+          <img [src]="item.image" alt="" class="img-fluid card-img-top">
+          <div class="p-4">
+            <h5><a href="#" class="text-dark">{{ item.title }}</a></h5>
+            <p class="small text-muted mb-0">{{ item.description }}</p>
+            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+              <p class="small mb-0">
+                <i class="fa fa-picture-o mr-2"></i>
+                <span class="font-weight-bold">{{ item.format }}</span>
+              </p>
+              <div class="badge px-3 rounded-pill font-weight-normal" [ngClass]="">{{ item.category }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+
+
+    <!-- Image Gallery -->
+<div class="row">
+  <!-- <div *ngFor="let another of displayedPicturess " class="col-xl-3 col-lg-4 col-md-6 mb-4"> -->
+
+  <div *ngFor="let item of displayedPictures " class="col-xl-3 col-lg-4 col-md-6 mb-4">
+    <div class="custom-card bg-white rounded shadow-sm">
+      <img [src]="item.image" alt="" class="img-fluid card-img-top" (click)="openModal(item)">
+      <div class="p-4">
+        <h5><a [href]="item.category " class="text-dark">{{ item.title }}</a></h5>
+        <p class="small text-muted mb-0">{{ item.description }}</p>
+        <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+          <p class="small mb-0">
+            <i class="fa fa-picture-o mr-2"></i>
+            <span class="font-weight-bold">{{ item.format }}</span>
+          </p>
+          <!-- <div class="badge px-3 rounded-pill font-weight-normal" [ngClass]="">{{ item.category }}</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+</div>
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="imageModalLabel">{{ modalItem?.title }}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img [src]="modalItem?.image" alt="" class="img-fluid">
+        <p class="small text-muted mt-3">{{ modalItem?.description }}</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!--هون يعرض الصورة بحجم كبي -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="imageModalLabel">{{ modalItem?.title }}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img [src]="modalItem?.subImage" alt="" class="img-fluid">
+        <p class="small text-muted mt-3">{{ modalItem?.description }}</p>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <div class="py-5 text-right">
+      <a href="#" class="btn btn-dark px-5 py-3 text-uppercase">Show me more</a>
+    </div> -->
+  </div>
+</div>

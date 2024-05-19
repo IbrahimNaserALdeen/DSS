@@ -46,6 +46,8 @@ import { AboutUsBackToTopComponent } from './Blogging/about_us_back_to_top/about
 import { ContactBackComponent } from './Blogging/contact_us_back_to_top/contact-back/contact-back.component';
 import { OurServicesBackToTopComponent } from './Blogging/our_services_back_to_top/our-services-back-to-top/our-services-back-to-top.component';
 import { ContactWithUsComponent } from './Blogging/contact_with_us_in_number/contact-with-us/contact-with-us.component';
+import { GraphicDesignComponent } from './Blogging/graphic_design/graphic-design/graphic-design.component';
+import { GalleryPageComponent } from './pages/gallery_page/gallery-page/gallery-page.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -91,6 +93,8 @@ import { ContactWithUsComponent } from './Blogging/contact_with_us_in_number/con
     ContactBackComponent,
     OurServicesBackToTopComponent,
     ContactWithUsComponent,
+    GraphicDesignComponent,
+    GalleryPageComponent,
   ],
   imports: [
     BrowserModule,

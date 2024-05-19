@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./lms-offer.component.css']
 })
 export class LmsOfferComponent {
+  whatsappNumber: string = '0795508124'; // Replace with actual number
+  message: string = 'I would like to order now';
 
+  get whatsappLink(): string {
+    const encodedMessage = encodeURIComponent(this.message);
+    return `https://wa.me/${this.whatsappNumber}?text=${encodedMessage}`;
+  }
 }

@@ -1,0 +1,37 @@
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+    background: #096c7c;
+  }
+  
+  .banner {
+    background: #096c7c;
+    background: -webkit-linear-gradient(to right, #096c7c, #5ca3ac, #aed9db);
+    background: linear-gradient(to right, #096c7c, #5ca3ac, #aed9db);
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .custom-card {
+    width: 100%;
+    height: 100%;
+  }
+  .card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
