@@ -87,13 +87,13 @@
       > -->
 
       <div class="nav-item dropdown">
-        <a routerLink="/Services" class="nav-link dropdown-toggle" data-toggle="dropdown " routerLinkActive="active">
+        <a routerLink="/Services" class="nav-link dropdown-toggle" data-toggle="dropdown" routerLinkActive="active">
           {{ "app-navbar.ourServices" | translate }}
         </a>
         <div class="dropdown-menu m-0">
-          <a routerLink="/Gallery" class="dropdown-item">{{ "app-navbar.Gallery" | translate }}</a>
-          <a [routerLink]="['/Home/Lms']" class="dropdown-item">Lms Services</a>
-          <a routerLink="/Home/Security" class="dropdown-item">Security Services</a>
+          <a routerLink="/Gallery" class="dropdown-item" routerLinkActive="active">{{ "app-navbar.Gallery" | translate }}</a>
+          <a [routerLink]="['/Home/Lms']" class="dropdown-item" routerLinkActive="active">Lms Services</a>
+          <a routerLink="/Home/Security" class="dropdown-item" routerLinkActive="active">Security Services</a>
           <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
           <a href="quote.html" class="dropdown-item">Free Quote</a> -->
         </div>
