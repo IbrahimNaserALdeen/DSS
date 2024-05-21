@@ -22,7 +22,7 @@ export class GraphicDesignComponent implements OnInit{
   }
 
   pictures: GalleryItem[] = [  
-    { subImage:"../../../../assets/img/websiteShabaJo.png",image: '../../../../assets/img/websiteShabaJo.png', title: 'Shabab Jo', description: 'Design a website in a simple and distinctive way', format: 'website', category: 'https://www.shababjo.net/Homepage' },
+    { subImage:"../../../../assets/img/WhatsApp Image 2024-05-20 at 11.00.07 AM (1).jpeg",image: '../../../../assets/img/WhatsApp Image 2024-05-20 at 11.00.07 AM.jpeg', title: 'Shabab Jo', description: 'Design a website in a simple and distinctive way', format: 'website', category: 'https://www.shababjo.net/Homepage' },
     {subImage:"../../../../assets/img/BLOX.png", image: '../../../../assets/img/WebSiteThegardenacademy.png', title: 'Thegarden Academy', description: 'Design a website in a simple and distinctive way', format: 'website', category: 'https://www.thegardenacademy.net/Homepage' },
     { subImage:"../../../../assets/img/IPARK.png",image: '../../../../assets/img/WebsiteiPark.png', title: 'IPark', description: 'Design a website in a simple and distinctive way', format: 'website', category: 'https://www.ipark.jo' },
     {subImage:"../../../../assets/img/logoSJ.png", image: '../../../../assets/img/WebsiteJitoa.png', title: 'Jitoa', description: 'Design a website in a simple and distinctive way', format: 'website', category: 'https://www.jitoa.org/' },

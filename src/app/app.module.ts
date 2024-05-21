@@ -52,6 +52,7 @@ import { SecurityPageComponent } from './pages/security-page/security-page/secur
 import { SecurityScreenComponent } from './Blogging/security-screen/security-screen/security-screen.component';
 import { SecuritySectionComponent } from './Blogging/security-section/security-section/security-section.component';
 import { SecurityServiceComponent } from './Blogging/security-service/security-service/security-service.component';
+import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/graphic-design-screen/graphic-design-screen.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -103,6 +104,7 @@ import { SecurityServiceComponent } from './Blogging/security-service/security-s
     SecurityScreenComponent,
     SecuritySectionComponent,
     SecurityServiceComponent,
+    GraphicDesignScreenComponent,
   ],
   imports: [
     BrowserModule,
