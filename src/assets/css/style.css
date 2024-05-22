@@ -136,10 +136,10 @@ h6,
     transition: .5s;
 }
 
-.sticky-top.navbar-dark .navbar-nav .nav-link {
+/* .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark);
-}
+} */
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -162,11 +162,12 @@ h6,
     }
 
     .navbar-dark .navbar-nav .nav-link,
-    .navbar-dark .navbar-nav .nav-link.show,
+    /* هنا تقوم بتكبير nav bar  */
+    /* .navbar-dark .navbar-nav .nav-link.show,
     .sticky-top.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
         color: var(--dark);
-    }
+    } */
 
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
@@ -336,9 +337,9 @@ h6,
 
 .service-item a.btn {
     position: absolute;
-    width: 60px;
+    /* width: 60px; */
     bottom: -48px;
-    left: 50%;
+    /* left: 50%; */
     margin-left: -30px;
     opacity: 0;
 }

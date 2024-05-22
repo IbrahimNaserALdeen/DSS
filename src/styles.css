@@ -13,6 +13,11 @@
   
 } */
 
+
+.custom-icon-color {
+  color: #aed9db; /* Change the color to your desired value */
+}
+
 .primarycolorTheam {
   background-color: #096c7c !important;
 }
