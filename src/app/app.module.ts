@@ -48,11 +48,11 @@ import { OurServicesBackToTopComponent } from './Blogging/our_services_back_to_t
 import { ContactWithUsComponent } from './Blogging/contact_with_us_in_number/contact-with-us/contact-with-us.component';
 import { GraphicDesignComponent } from './Blogging/graphic_design/graphic-design/graphic-design.component';
 import { GalleryPageComponent } from './pages/gallery_page/gallery-page/gallery-page.component';
-import { SecurityPageComponent } from './pages/security-page/security-page/security-page.component';
-import { SecurityScreenComponent } from './Blogging/security-screen/security-screen/security-screen.component';
+import { SecurityPageComponent } from './pages/security-page/security-page/security-page.component'; 
 import { SecuritySectionComponent } from './Blogging/security-section/security-section/security-section.component';
 import { SecurityServiceComponent } from './Blogging/security-service/security-service/security-service.component';
 import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/graphic-design-screen/graphic-design-screen.component';
+import { SecurityScreenComponent } from './Blogging/security-screen/security-screen/security-screen.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -68,8 +68,7 @@ import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/g
     HomeSectionComponent,
     OurServicesSectionComponent,
     ProjectsSectionComponent,
-    AboutpageComponent,
-
+    AboutpageComponent, 
     HomePageComponent,
     ServicespageComponent,
     FeatureComponent,
