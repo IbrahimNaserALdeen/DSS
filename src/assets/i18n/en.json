@@ -8,9 +8,101 @@
   },
 
   " app-home-section": {},
+ 
+  "about": {
+    "about-us":"ABOUT US",
+  "tital":"The Deep Services Solution (DSS) The Best IT Solution",
+  "introduction":"Welcome to Deep Service Solutions (DSS), where innovation meets excellence. Established just two years ago, we have swiftly emerged as a trusted partner in the dynamic landscape of the Middle East market. At DSS, our mission is to provide cuttingedge solutions tailored to the unique needs of our clients. Specializing in comprehensive service design, website development, and Learning Management Systems (LMS), we pride ourselves on delivering top-notch services that drive success for businesses across various industries. Our commitment to quality and customer satisfaction has earned us a reputation for reliability and professionalism. Partner with DSS today and experience the difference in service excellence.",
+   "t1":"24/7 Support",
+   "t2":"Award Winning",
+   "t3":"Fair Prices",
+   "t4":"Professional Staff",
+   "question":"Call to ask any question",
+   "contact":"Contact Us",
+   "number":"+962798313919",
+   "Vision":"Vision",
+   "VisionBody":"At Deep Service Solutions (DSS), our vision is to lead innovation in the Middle East, revolutionizing businesses with cutting-edge technology and exceptional service. We ' re committed to empowering organizations to thrive in the digital age through sustainable solutions and unwavering dedication to excellence.",
+   "Mission":"Mission",
+   "MissionBody":"At Deep Service Solutions (DSS), our mission is to deliver innovative service solutions that exceed client expectations in the Middle East. Through tailored services like website design, LMS solutions, and comprehensive service design, we empower businesses to achieve their goals efficiently. Our commitment to collaboration, creativity, and technology drives growth, fosters partnerships, and creates positive community impact.",
+   "Team":"Meet Our Exceptional Team",
+   "TeamBody":"At DEEP Services Solutions, our team is more than just a group of professionals. We're a passionate and dedicated family committed to providing innovative solutions to our clients. With a unique blend of creativity, expertise, and unwavering commitment, we work tirelessly to ensure the success of every project. Get to know the faces behind our success!"
+   
+  },
+  "feature-Why-Choose-Us": {
+    "tital-one":"WHY CHOOSE US",
+    "tital-tow":"We Are Here to Grow Your Business Exponentially",
+    "icon-tital-one":"Professional Staff",
+    "icon-tital-two":"Best In Industry",
+    "icon-tital-three":"24/7 Support",
+    "icon-tital-four":"Award Winning",
+    "icon-body-one":"Our professional staff is dedicated to delivering exceptional service and expertise, ensuring top-quality results and client satisfaction.",
+    "icon-body-two":"Our company is a leader in the industry, Trust us for top-tier solutions and excellence.",
+    "icon-body-thre":"We offer 24/7 support, ensuring that help is always available whenever you need it.",
+    "icon-body-four":"Our award-winning services reflect our commitment to excellence and innovation in the industry."  
+  },
 
-  " app-about-section": {},
+  "our-services": {
+    "tital-one":"OUR SERVICES",
+    "tital-tow":"Elevate your online presence with our custom IT solutions. From LMS development to website and graphic design, brand identity, and cybersecurity, we've got you covered. Let's redefine your digital journey together.    ",
+    "icon-tital-one":"LMS Development",
+    "icon-tital-two":"Website Design",
+    "icon-tital-three":" Graphic Design & Logo / Branding",
+    "icon-tital-four":"SEO (Search Engine Optimization)",
+    "icon-tital-five":"Cyber Security",
+    "icon-tital-six":"Call Us",
+    "icon-body-one":"A learning management system (LMS) is a software application or web-based technology used to plan, implement and assess a specific learning process.",
+    "icon-body-two":"Transform your online presence with DSS's exceptional website design services. We create visually stunning, user-friendly websites that engage your audience and enhance your brand.",
+    "icon-body-three":"Enhance your brand with our top-notch graphic design and logo/branding services. At DSS, we create distinctive, memorable visual identities that resonate with your audience and set you apart from the .",
+    "icon-body-four":"Boost your online visibility with DSS's expert SEO services. We optimize your website to rank higher in search engine results, driving more organic traffic and increasing your reach ." , 
+    "icon-body-five":"Protect your digital assets with DSS's premier cybersecurity services. We offer comprehensive security solutions to safeguard your business against cyber threats.",
+    "icon-body-sex":"If you are interested in our services, please don't hesitate to contact us"  ,
+ "number":"+962 7 9550 8124"
+  },
 
+
+  "home-contact-us": {
+    "tital-one":"REQUEST A QUOTE",
+    "tital-tow":"Need A Free Quote? Please Feel Free to Contact Us",
+    "icon-tital-one":"Reply within 24 hours",
+    "icon-tital-two":"24 hrs telephone support",
+    "icon-body-one":"Ready to elevate your online presence? Get in touch for a complimentary quote and discover how our IT solutions can redefine your digital landscap"  ,
+    "question":"Call to ask any question",
+    "contact":"REQUEST A QUOTE",
+    "number":"+962798313919",
+    "services-one":"LMS Development",
+    "services-two":"Website Design",
+    "services-three":" Graphic Design & Logo / Branding",
+    "services-four":"SEO (Search Engine Optimization)",
+    "services-five":"Cyber Security",
+    "service":"Select A Service",
+    "b1":"Visit our office",
+    "b2":"Email to get free quote",
+    "b3":"Call to ask any question",
+    "t1":"If You Have Any Query, Feel Free To Contact Us",
+    "CONTACTUS":"CONTACT US"
+  },
+  "footer": {
+    "tital-one":"We are working to build a better future in line with the latest developments in the world of software solutions by making the customer-centricity focus of our attention, which will achieve them easier work that is compatible with the world digital evolution",
+    "tital-tow":"Get In Touch",
+    "tital-three":"Quick Links",
+    "loc":"Tulkarm Complex - Fifth Floor, St. Medina, Amman 11118"
+  },
+  "lms": {
+    "t1":"Electronic Examination System",
+    "b1":"Create E-Tests for Educational Courses and Students Create and Manage Bank Questions",
+    "t2":"Electronic Library",
+    "b2":"Comprehensive system for setting up an electronic library and cataloguing it according to the content provided",
+    "icon-body-one":"Ready to elevate your online presence? Get in touch for a complimentary quote and discover how our IT solutions can redefine your digital landscap"  ,
+    "question":"Call to ask any question",
+    "contact":"REQUEST A QUOTE",
+    "number":"+962798313919",
+    "services-one":"LMS Development",
+    "services-two":"Website Design",
+    "services-three":" Graphic Design & Logo / Branding",
+    "s1":"If you are a platform owner currently facing technical issues on your platform, looking to add new features and develop the platform, or finding that the operating costs are high and there is no content protection system in place, we can help you through our team. Just contact us and we will be at your service.",
+    "s2":"If you are looking to start your platform, we are here to provide you with all the services you need as an educational or training content creator to create and sell courses online. Our services include website design and development, visual identity, production and editing of educational content, assistance in uploading educational content, and managing the platform in the initial stage, as well as providing e-commerce services or direct sales through the platform.",
+    "s3":""
+  },
   "app-our-services-section": {},
 
   "app-projects-section": {},
@@ -18,6 +110,6 @@
   " app-clients-section": {},
 
   " app-contact-us": {},
-
+  
   "app-footer": {}
 }
