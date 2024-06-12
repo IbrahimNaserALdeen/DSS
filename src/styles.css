@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* body {
-  padding-top: 70px;  
-} */
+body {
+  text-align: inherit !important;
+}
+
 
 /* footer {
   background-color: #f8f9fa;
@@ -15,15 +16,18 @@
 
 
 .custom-icon-color {
-  color: #aed9db; /* Change the color to your desired value */
+  color: #aed9db;
+  /* Change the color to your desired value */
 }
 
 .primarycolorTheam {
   background-color: #096c7c !important;
 }
+
 .textprimaryTheam {
   color: #096c7c !important;
 }
+
 .btn-primary {
   color: #fff !important;
   background-color: #096c7c !important;
@@ -55,6 +59,7 @@
   background: #096c7c !important;
   border-radius: 2px;
 }
+
 .bg-primary {
   background-color: #096c7c !important;
 }
