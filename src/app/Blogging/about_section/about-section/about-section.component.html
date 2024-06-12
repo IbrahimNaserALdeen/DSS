@@ -69,40 +69,38 @@
     <div class="row g-5">
       <div class="col-lg-7">
         <div class="section-title position-relative pb-3 mb-5">
-          <h5 class="fw-bold textprimaryTheam text-uppercase">About Us</h5>
+        
+          <h5 class="fw-bold textprimaryTheam text-uppercase"> {{ "about.about-us" | translate }}</h5>
           <h1 class="mb-0">
-            The Deep Services Solution (DSS) The Best IT Solution
+            {{ "about.tital" | translate }}
+           
           </h1>
         </div>
         <p class="mb-4">
-          Welcome to Deep Service Solutions (DSS), where innovation meets
-          excellence. Established just two years ago, we have swiftly emerged as
-          a trusted partner in the dynamic landscape of the Middle East market.
-          At DSS, our mission is to provide cuttingedge solutions tailored to
-          the unique needs of our clients. Specializing in comprehensive service
-          design, website development, and Learning Management Systems (LMS), we
-          pride ourselves on delivering top-notch services that drive success
-          for businesses across various industries. Our commitment to quality
-          and customer satisfaction has earned us a reputation for reliability
-          and professionalism. Partner with DSS today and experience the
-          difference in service excellence.
+          {{ "about.introduction" | translate }}
+          
         </p>
         <div class="row g-0 mb-3">
           <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
             <h5 class="mb-3">
-              <i class="fa fa-check textprimaryTheam me-3"></i>Award Winning
+              <i class="fa fa-check textprimaryTheam me-3"></i> {{ "about.t2" | translate }}
             </h5>
             <h5 class="mb-3">
-              <i class="fa fa-check textprimaryTheam me-3"></i>Professional
-              Staff
+              <i class="fa fa-check textprimaryTheam me-3"></i>
+              {{ "about.t4" | translate }}
+              
             </h5>
           </div>
           <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
             <h5 class="mb-3">
-              <i class="fa fa-check textprimaryTheam me-3"></i>24/7 Support
+              <i class="fa fa-check textprimaryTheam me-3"></i>
+              {{ "about.t1" | translate }}
+             
             </h5>
             <h5 class="mb-3">
-              <i class="fa fa-check textprimaryTheam me-3"></i>Fair Prices
+              <i class="fa fa-check textprimaryTheam me-3"></i>
+              {{ "about.t3" | translate }}
+              
             </h5>
           </div>
         </div>
@@ -120,21 +118,23 @@
 
           </div></a>
           <div class="ps-4">
-            <h5 class="mb-2">Call to ask any question</h5>
-            <h4 class="textprimaryTheam mb-0">+962798313919</h4>
+            <h5 class="mb-2">{{ "about.question" | translate }}</h5>
+            <h4 class="textprimaryTheam mb-0">{{ "about.number" | translate }}</h4>
           </div>
         </div>
         <a
           [routerLink]="['ContactUs']"
           class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
           data-wow-delay="0.9s"
-          >Contact Us</a
+          >{{ "about.contact" | translate }}</a
         >
       </div>
       <div class="col-lg-5" style="min-height: 500px">
         <div class="position-relative h-100">
+          <!-- position-absolute -->
           <img
-            class="position-absolute w-100 h-100 rounded wow zoomIn"
+          
+            class=" w-100 h-100 rounded wow zoomIn"
             data-wow-delay="0.9s"
             src="../../../../assets/img/11-7.JPG"
             style="object-fit: cover"
