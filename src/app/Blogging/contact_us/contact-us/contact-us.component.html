@@ -138,17 +138,18 @@
                 <input
                   type="text"
                   class="form-control bg-light border-0"
-                  placeholder="Your Name"
+                  [placeholder]="('home-contact-us.name' | translate)"
                   style="height: 55px"
                 />
               </div>
               <div class="col-12">
                 <input
-                  type="email"
-                  class="form-control bg-light border-0"
-                  placeholder="Your Email"
-                  style="height: 55px"
-                />
+                type="email"
+                class="form-control bg-light border-0"
+                [placeholder]="('home-contact-us.email' | translate)"
+                style="height: 55px"
+              />
+              
               </div>
               <div class="col-12">
                 <select
@@ -169,7 +170,7 @@
                 <textarea
                   class="form-control bg-light border-0"
                   rows="3"
-                  placeholder="Message"
+                  [placeholder]="('home-contact-us.message' | translate)"
                 ></textarea>
               </div>
               <div class="col-12">

@@ -4,13 +4,11 @@
       class="section-title text-center position-relative pb-3 mb-5 mx-auto"
       style="max-width: 600px"
     >
-      <h5 class="fw-bold textprimaryTheam text-uppercase">Our Services</h5>
+      <h5 class="fw-bold textprimaryTheam text-uppercase">{{ "app-navbar.ourServices" | translate }}</h5>
 
       <p class="mb-0">
-        At deep service solution, we are committed to safeguarding your digital
-        assets through comprehensive cybersecurity solutions. Our range of
-        services is designed to address the evolving threatscape and protect
-        your organization from potential cyber risks.
+        {{ "security-section.t1" | translate }}
+        
       </p>
     </div>
     <div class="row g-5">
@@ -26,19 +24,20 @@
             ></i>
           </div>
           <h4 class="mb-3">
-            Internal and External Network Penetration Testing
+            {{ "security-section.st1" | translate }}
+           
           </h4>
           <p class="m-0">
-            Your business is your logo, your logo is your business, and with
-            Devnas you will get your perfect, unique, and creative logo.
+            {{ "security-section.sb1" | translate }}
+            
           </p>
 
           <a
             class="btn btn-lg btn-primary rounded w-50 ms-0"
             (click)="openModal('one')"
-          >
+          >{{ "security-section.Readmore" | translate }}
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            
           </a>
         </div>
       </div>
@@ -53,7 +52,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Vulnerability Scanning Service
+                {{ "security-section.sbt1" | translate }} 
               </h5>
               <button
                 type="button"
@@ -63,52 +62,29 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                In today's rapidly evolving threat landscape, staying ahead of
-                potential vulnerabilities is crucial to maintaining the security
-                and integrity of your digital assets. Our vulnerability scanning
-                service offers proactive measures to identify and mitigate
-                security weaknesses before they can be exploited by malicious
-                actors.
+              <p>{{ "security-section.sbtt1" | translate }}
+            
               </p>
-              <h6>Key Features:</h6>
+              <h6>{{ "security-section.sbttk1" | translate }}</h6>
               <ul>
                 <li>
-                  Comprehensive Scanning: Our advanced scanning tools
-                  meticulously comb through your network, applications, and
-                  systems to detect vulnerabilities across all layers of your
-                  infrastructure.
+                  {{ "security-section.sbttk1_1" | translate }}
+             
                 </li>
-                <li>
-                  Regular Assessments: We provide scheduled scans to ensure
-                  continuous monitoring of your environment, allowing for timely
-                  identification and remediation of new vulnerabilities that may
-                  arise.
+                <li>{{ "security-section.sbttk1_2" | translate }}
+                
                 </li>
-                <li>
-                  Customized Solutions: Tailored to your specific business
-                  needs, our vulnerability scanning service offers flexible
-                  scanning options, including authenticated and unauthenticated
-                  scans, to provide a comprehensive view of your security
-                  posture.
+                <li>{{ "security-section.sbttk1_3" | translate }}
+           
                 </li>
-                <li>
-                  Risk Prioritization: Our scanning reports prioritize
-                  vulnerabilities based on severity levels, enabling you to
-                  focus resources on addressing high-risk issues that pose the
-                  greatest threat to your organization.
+                <li>{{ "security-section.sbttk1_4" | translate }}
+                 
                 </li>
-                <li>
-                  Actionable Insights: In addition to identifying
-                  vulnerabilities, our reports offer actionable insights and
-                  recommendations for remediation, empowering your IT team to
-                  take proactive measures to strengthen your security defenses.
+                <li>{{ "security-section.sbttk1_5" | translate }}
+                
                 </li>
-                <li>
-                  Compliance Support: Our vulnerability scanning service helps
-                  you meet regulatory requirements and industry standards by
-                  identifying vulnerabilities that may impact compliance, such
-                  as PCI DSS, HIPAA, GDPR, and more.
+                <li>{{ "security-section.sbttk1_6" | translate }}
+              
                 </li>
               </ul>
             </div>
@@ -130,13 +106,13 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Internal and External Vulnerability Assessment</h4>
+          <h4 class="mb-3">{{ "security-section.st2" | translate }}</h4>
           <p class="m-0">
-            Vulnerability Assessment (VA) is a proactive approach ....
+            {{ "security-section.sb2" | translate }}  
           </p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('two')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }}    
           </a>
         </div>
       </div>
@@ -153,7 +129,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Vulnerability Scanning Service
+                {{ "security-section.sbt2" | translate }}
               </h5>
               <button
                 type="button"
@@ -163,31 +139,16 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Vulnerability Assessment (VA) is a proactive approach to
-                identifying and evaluating potential weaknesses within an
-                organization's IT infrastructure, applications, and systems.
-                Unlike vulnerability scanning, which primarily focuses on
-                automated detection of known vulnerabilities, VA involves a more
-                comprehensive analysis that seeks to understand the underlying
-                causes and implications of security weaknesses.
+              <p> {{ "security-section.sbtt2" | translate }}
+                
               </p>
-              <h6>Key Features:</h6>
+              <h6>{{ "security-section.sbttk1" | translate }}</h6>
               <ul>
-                <li>
-                  Threat Modeling: VA begins with a thorough examination of the
-                  organization's assets, including networks, servers,
-                  applications, and data. By understanding the potential threats
-                  and attack vectors that could target these assets, VA helps
-                  prioritize security efforts and resources more effectively.
+                <li>{{ "security-section.bttk2_1" | translate }}
+             
                 </li>
-                <li>
-                  Continuous Monitoring: VA is not a one-time activity but
-                  rather an ongoing process that requires continuous monitoring
-                  and assessment. By regularly evaluating the organization's
-                  security posture and adapting to evolving threats, VA helps
-                  maintain a proactive stance against potential vulnerabilities
-                  and cyber threats.
+                <li>{{ "security-section.bttk2_2" | translate }}
+           
                 </li>
               </ul>
             </div>
@@ -210,18 +171,18 @@
             ></i>
           </div>
           <h4 class="mb-3">
-            Internal and External Network Penetration Testing
+            {{ "security-section.st3" | translate }}
+      
           </h4>
-          <p class="m-0">
-            Network Penetration Testing is a proactive cybersecurity practice
-            aimed at ....
+          <p class="m-0">  {{ "security-section.sb3" | translate }}
+          
           </p>
           <a
             class="btn btn-lg btn-primary rounded"
             (click)="openModal('three')"
           >
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }}  
           </a>
         </div>
       </div>
@@ -236,7 +197,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Vulnerability Scanning Service
+                {{ "security-section.sbt3" | translate }}
               </h5>
               <button
                 type="button"
@@ -246,76 +207,36 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Network Penetration Testing is a proactive cybersecurity
-                practice aimed at identifying and exploiting vulnerabilities
-                within an organization's network infrastructure. It involves
-                simulating real-world cyber attacks to assess the security
-                posture of the network and identify potential weaknesses that
-                could be exploited by malicious actors. Network penetration
-                testing goes beyond traditional vulnerability scanning by
-                actively attempting to exploit identified vulnerabilities to
-                assess the potential impact on the organization's assets, data,
-                and operations.
+              <p>{{ "security-section.sbtt3" | translate }} 
+             
+           
               </p>
-              <h6>Key Features:</h6>
+              <h6>{{ "security-section.sbttk1" | translate }} </h6>
               <ul>
-                <li>
-                  Comprehensive Network Coverage: Network PT covers all aspects
-                  of the organization's network infrastructure, including
-                  routers, switches, firewalls, servers, workstations, and other
-                  network devices, ensuring a thorough assessment of potential
-                  vulnerabilities.
+                <li>{{ "security-section.sbttk3_1" | translate }}
+                
                 </li>
-                <li>
-                  Realistic Attack Simulation: Network PT simulates real-world
-                  cyber attacks to assess the organization's resilience against
-                  various threat scenarios, including internal and external
-                  threats, insider attacks, and advanced persistent threats
-                  (APTs).
+                <li>{{ "security-section.sbttk3_2" | translate }}
+    
                 </li>
-                <li>
-                  Customized Testing Approach: Network PT employs a customized
-                  testing approach tailored to the organization's specific
-                  environment, business requirements, and risk profile, ensuring
-                  that the assessment accurately reflects the organization's
-                  unique security challenges.
+                <li>{{ "security-section.sbttk3_3" | translate }}
+               
                 </li>
-                <li>
-                  Manual and Automated Techniques: Network PT utilizes a
-                  combination of manual testing techniques performed by
-                  experienced security professionals and automated scanning
-                  tools to identify vulnerabilities and assess the effectiveness
-                  of existing security controls.
+                <li>{{ "security-section.sbttk3_4" | translate }}
+              
                 </li>
-                <li>
-                  Risk Prioritization: Network PT prioritizes identified
-                  vulnerabilities based on their severity, potential impact on
-                  the organization's assets and operations, and likelihood of
-                  exploitation, enabling the organization to focus resources on
-                  addressing the most critical security risks first.
+                <li>{{ "security-section.sbttk3_5" | translate }}
+          
                 </li>
-                <li>
-                  Post-Exploitation Analysis: Network PT includes
-                  post-exploitation analysis to assess the consequences of a
-                  successful cyber attack, including data exfiltration,
-                  privilege escalation, lateral movement, and other potential
-                  security breaches, helping the organization understand the
-                  full scope of the security incident.
+                <li>{{ "security-section.sbttk3_6" | translate }}
+             
                 </li>
-                <li>
-                  Comprehensive Reporting: Network PT provides a detailed report
-                  of the findings, including a summary of the testing
-                  methodology, identified vulnerabilities, exploited systems,
-                  and actionable recommendations for remediation, enabling the
-                  organization to strengthen its security posture effectively.
+                <li>{{ "security-section.sbttk3_7" | translate }}
+       
+                 
                 </li>
-                <li>
-                  Compliance Support: Network PT helps organizations meet
-                  regulatory compliance requirements by identifying
-                  vulnerabilities that may impact compliance with industry
-                  standards and regulations, such as PCI DSS, HIPAA, GDPR, and
-                  others.
+                <li>{{ "security-section.sbttk3_8" | translate }}
+             
                 </li>
                 <!-- <li>•	Compliance Support: Network PT helps organizations meet regulatory compliance requirements by identifying vulnerabilities that may impact compliance with industry standards and regulations, such as PCI DSS, HIPAA, GDPR, and others.</li> -->
               </ul>
@@ -338,11 +259,11 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Web Application Penetration Testing</h4>
-          <p class="m-0">Web Application Penetration Testing (WAPT) is ....</p>
+          <h4 class="mb-3">{{ "security-section.st4" | translate }}</h4>
+          <p class="m-0">{{ "security-section.sb4" | translate }}</p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('four')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }} 
           </a>
         </div>
       </div>
@@ -357,7 +278,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Web Application Penetration Testing
+                {{ "security-section.sbt4" | translate }}  
               </h5>
               <button
                 type="button"
@@ -367,60 +288,28 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Web Application Penetration Testing (WAPT) is a proactive
-                cybersecurity practice aimed at identifying and addressing
-                vulnerabilities within web applications. It involves simulating
-                real-world cyber attacks to assess the security posture of web
-                applications and identify potential weaknesses that could be
-                exploited by malicious actors. WAPT goes beyond traditional
-                vulnerability scanning by actively attempting to exploit
-                identified vulnerabilities to assess the potential impact on the
-                organization's assets, data, and operations.
+              <p>    {{ "security-section.sbtt4" | translate }}
+            
               </p>
-              <h6>Key Features:</h6>
+              <h6>  {{ "security-section.sbttk1" | translate }}</h6>
               <ul>
-                <li>
-                  Comprehensive Testing Coverage: WAPT covers all aspects of the
-                  web application, including the frontend user interface,
-                  backend server-side components, APIs, and databases, ensuring
-                  a thorough assessment of potential vulnerabilities.
+                <li>{{ "security-section.sbttk4_1" | translate }}
+                 
                 </li>
-                <li>
-                  Customized Testing Approach: WAPT employs a customized testing
-                  approach tailored to the specific architecture, technologies,
-                  and functionalities of the web application, ensuring that the
-                  assessment accurately reflects the unique security challenges
-                  faced by the organization.
+                <li>{{ "security-section.sbttk4_2" | translate }}
+                
                 </li>
-                <li>
-                  Manual and Automated Techniques: WAPT utilizes a combination
-                  of manual testing techniques performed by experienced security
-                  professionals and automated scanning tools to identify
-                  vulnerabilities and assess the effectiveness of existing
-                  security controls.
+                <li>{{ "security-section.sbttk4_3" | translate }}
+                
                 </li>
-                <li>
-                  Client-Side and Server-Side Testing: WAPT includes both
-                  client-side and server-side testing to evaluate the security
-                  of the entire application stack, including frontend code,
-                  backend APIs, and server-side logic, ensuring comprehensive
-                  coverage of potential attack vectors.
+                <li>{{ "security-section.sbttk4_4" | translate }}
+             
                 </li>
-                <li>
-                  Data Validation and Input Filtering: WAPT examines how the web
-                  application handles user input and data validation to identify
-                  vulnerabilities such as input validation errors, insecure
-                  direct object references, and data leakage issues that could
-                  lead to data breaches.
+                <li>{{ "security-section.sbttk4_5" | translate }}
+               
                 </li>
-                <li>
-                  Reporting and Remediation Recommendations: WAPT provides a
-                  detailed report of the findings, including a summary of the
-                  testing methodology, identified vulnerabilities, exploited
-                  systems, and actionable recommendations for remediation,
-                  enabling the organization to strengthen its security posture
-                  effectively.
+                <li>{{ "security-section.sbttk4_6" | translate }}
+            
                 </li>
               </ul>
             </div>
@@ -442,11 +331,11 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Mobile Application Penetration Testing</h4>
-          <p class="m-0">Mobile Application Penetration Testing (MAPT) is</p>
+          <h4 class="mb-3">{{ "security-section.st5" | translate }}   </h4>
+          <p class="m-0">{{ "security-section.sb5" | translate }}</p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('five')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }} 
           </a>
         </div>
       </div>
@@ -461,7 +350,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Mobile Application Penetration Testing
+                {{ "security-section.sbt5" | translate }} 
               </h5>
               <button
                 type="button"
@@ -471,72 +360,30 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Mobile Application Penetration Testing (MAPT) is a proactive
-                cybersecurity practice aimed at identifying and addressing
-                vulnerabilities within mobile applications. With the increasing
-                use of mobile devices for business and personal use, ensuring
-                the security of mobile applications is paramount to safeguarding
-                sensitive data and protecting against cyber threats. MAPT
-                involves simulating real-world cyber attacks to assess the
-                security posture of mobile applications and identify potential
-                weaknesses that could be exploited by malicious actors.
+              <p> {{ "security-section.sbtt5" | translate }}
+               
               </p>
-              <h6>Key Features:</h6>
+              <h6>{{ "security-section.sbttk1" | translate }}</h6>
               <ul>
-                <li>
-                  Static and Dynamic Analysis: MAPT utilizes both static and
-                  dynamic analysis techniques to assess the security of mobile
-                  applications. Static analysis involves examining the
-                  application's source code and binary files for potential
-                  vulnerabilities, while dynamic analysis involves running the
-                  application in a controlled environment to identify runtime
-                  security issues.
+                <li>{{ "security-section.sbttk5_1" | translate }}
+                 
                 </li>
-                <li>
-                  Client-Side and Server-Side Testing: MAPT evaluates both
-                  client-side and server-side components of mobile applications
-                  to identify vulnerabilities such as insecure data storage,
-                  improper session management, insecure API endpoints, and
-                  server-side injection flaws.
+                <li>{{ "security-section.sbttk5_2" | translate }}
+                
                 </li>
-                <li>
-                  Authentication and Authorization Testing: MAPT assesses the
-                  effectiveness of authentication and authorization mechanisms
-                  used by the mobile application, including login screens,
-                  session tokens, and OAuth implementations, to identify
-                  vulnerabilities such as weak passwords, session fixation, and
-                  insecure access controls.
+                <li>{{ "security-section.sbttk5_3" | translate }}
+                
                 </li>
-                <li>
-                  Data Encryption and Secure Communications: MAPT examines how
-                  the mobile application handles sensitive data, including
-                  encryption of data at rest and in transit, secure
-                  communication protocols (e.g., HTTPS), and protection against
-                  man-in-the-middle (MITM) attacks to prevent data interception
-                  and tampering.
+                <li>{{ "security-section.sbttk5_4" | translate }}
+                          </li>
+                <li>{{ "security-section.sbttk5_5" | translate }}
+                
                 </li>
-                <li>
-                  Input Validation and Output Encoding: MAPT evaluates how the
-                  mobile application handles user input and output, including
-                  validation of user input, proper encoding of output to prevent
-                  XSS attacks, and protection against injection flaws such as
-                  SQL injection and command injection.
+                <li>{{ "security-section.sbttk5_6" | translate }}
+                
                 </li>
-                <li>
-                  User Authentication Testing: MAPT evaluates the security of
-                  user authentication mechanisms, including biometric
-                  authentication, PIN/password-based authentication, and
-                  multi-factor authentication (MFA), to ensure secure access to
-                  the application and prevent unauthorized access.
-                </li>
-                <li>
-                  Reporting and Remediation Recommendations: MAPT provides a
-                  detailed report of the findings, including identified
-                  vulnerabilities, exploited systems, and actionable
-                  recommendations for remediation, enabling the organization to
-                  strengthen the security of their mobile applications
-                  effectively.
+                <li>{{ "security-section.sbttk5_7" | translate }}
+               
                 </li>
               </ul>
             </div>
@@ -558,11 +405,11 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Configuration Review</h4>
-          <p class="m-0">Configuration review is</p>
+          <h4 class="mb-3">{{ "security-section.st6" | translate }}</h4>
+          <p class="m-0">{{ "security-section.sb6" | translate }}</p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('SEX')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }}
           </a>
         </div>
       </div>
@@ -577,7 +424,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Configuration Review
+                {{ "security-section.sbt6" | translate }}  
               </h5>
               <button
                 type="button"
@@ -587,58 +434,22 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Configuration review is a proactive cybersecurity practice
-                focused on assessing and validating the configuration settings
-                of an organization's IT infrastructure, systems, applications,
-                and devices. It involves examining various configuration
-                parameters, settings, and controls to ensure they align with
-                security best practices, industry standards, and regulatory
-                requirements. Configuration review aims to identify
-                misconfigurations, vulnerabilities, and weaknesses that could
-                expose the organization to security risks and potential cyber
-                threats.
+              <p> {{ "security-section.sbtt6" | translate }}
+            
               </p>
-              <h6>Key Features:</h6>
+              <h6> {{ "security-section.sbttk1" | translate }}</h6>
               <ul>
-                <li>
-                  Baseline Comparison: Compare current configuration settings
-                  against established baselines, industry benchmarks, and
-                  security standards (e.g., CIS benchmarks, NIST guidelines) to
-                  identify deviations and potential security risks.
+                <li>{{ "security-section.sbttk6_1" | translate }}
+                 </li>
+                <li>{{ "security-section.sbttk6_2" | translate }}
+               
                 </li>
-                <li>
-                  Security Control Assessment: Assess the effectiveness of
-                  security controls implemented within the organization's IT
-                  environment, including access controls, encryption settings,
-                  logging and monitoring configurations, and network
-                  segmentation measures.
+                <li>{{ "security-section.sbttk6_3" | translate }}
                 </li>
-                <li>
-                  Vulnerability Identification: Identify misconfigurations and
-                  vulnerabilities that could lead to security breaches, data
-                  leaks, or unauthorized access. This includes common
-                  misconfigurations such as default passwords, unnecessary
-                  services enabled, insecure protocols, and weak encryption
-                  settings.
-                </li>
-                <li>
-                  Recommendations and Remediation: Provide actionable
-                  recommendations and remediation strategies to address
-                  identified misconfigurations and vulnerabilities. This may
-                  include implementing security best practices, applying patches
-                  and updates, configuring security controls properly, and
-                  enhancing security awareness training for personnel.
-                </li>
-                <li>
-                  Reporting and Documentation: Generate comprehensive reports
-                  documenting the findings of the configuration review,
-                  including identified misconfigurations, vulnerabilities, risk
-                  assessments, and recommendations for remediation. These
-                  reports serve as valuable reference materials for stakeholders
-                  and regulators and provide a roadmap for improving the
-                  organization's security posture.
-                </li>
+                <li>{{ "security-section.sbttk6_4" | translate }}
+                  </li>
+                <li>{{ "security-section.sbttk6_5" | translate }}
+                            </li>
               </ul>
             </div>
             <!-- <div class="modal-footer">
@@ -659,11 +470,11 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Phishing Campaign</h4>
-          <p class="m-0">Simulation of phishing attacks to ...</p>
+          <h4 class="mb-3">{{ "security-section.st7" | translate }} </h4>
+          <p class="m-0">{{ "security-section.sb7" | translate }}</p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('7')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+            {{ "security-section.Readmore" | translate }} 
           </a>
         </div>
       </div>
@@ -678,7 +489,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Phishing Campaign
+                {{ "security-section.sbt7" | translate }}    
               </h5>
               <button
                 type="button"
@@ -688,9 +499,7 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Simulation of phishing attacks to assess your employees'
-                susceptibility and provide targeted training to mitigate risks.
+              <p>  {{ "security-section.sbtt7" | translate }} 
               </p>
               <!-- <h6>Key Features:</h6>
                 <ul>
@@ -720,14 +529,13 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">Awareness Training</h4>
-          <p class="m-0">
-            Customized cybersecurity training programs to raise security
-            awareness among your staff....
+          <h4 class="mb-3"> {{ "security-section.st8" | translate }}  </h4>
+          <p class="m-0">{{ "security-section.sb8" | translate }}
+          
           </p>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('8')">
             <!-- <i class="bi bi-arrow-right"></i> -->
-            Read more
+             {{ "security-section.Readmore" | translate }}
           </a>
         </div>
       </div>
@@ -742,7 +550,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="vulnerabilityModalLabel">
-                Awareness Training
+                 {{ "security-section.sbtt8" | translate }}
               </h5>
               <button
                 type="button"
@@ -752,11 +560,8 @@
               ></button>
             </div>
             <div class="modal-body">
-              <p>
-                Customized cybersecurity training programs to raise security
-                awareness among your staff. Our training modules are designed to
-                educate employees on recognizing and mitigating cyber threats,
-                fostering a culture of security throughout your organization.
+              <p>{{ "security-section.sbttt8" | translate }}
+              
               </p>
               <!-- <h6>Key Features:</h6>
                 <ul>
@@ -780,12 +585,12 @@
           class="position-relative primarycolorTheam rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5"
         >
           <a href="tel:+962782028246" class="no-underline">
-            <h3 class="text-white mb-3">Call Us</h3>
+            <h3 class="text-white mb-3">{{ "security-section.help" | translate }} </h3>
             <p class="text-white mb-3">
-              If you are interested in our services, please don't hesitate to
-              contact us
+              {{ "security-section.helpt" | translate }}
+            
             </p>
-            <h4 class="text-white mb-0">+962782028246</h4>
+            <h4 class="text-white mb-0"> {{ "security-section.number" | translate }}</h4>
           </a>
         </div>
       </div>
@@ -795,15 +600,10 @@
       class="section-title text-center position-relative pb-3 mb-5 mx-auto mt-5"
       style="max-width: 600px"
     >
-      <h5 class="fw-bold textprimaryTheam text-uppercase">Conclusion</h5>
+      <h5 class="fw-bold textprimaryTheam text-uppercase">{{ "security-section.Conclusion" | translate }}</h5>
 
-      <p class="mb-0">
-        At deep service solution, we understand the critical importance of
-        cybersecurity in today's digital landscape. With our comprehensive suite
-        of services, we empower organizations to proactively defend against
-        cyber threats and safeguard their valuable assets. Partner with us to
-        strengthen your security posture and achieve peace of mind in an
-        increasingly connected world.
+      <p class="mb-0">{{ "security-section.Conclusionb" | translate }}
+        
       </p>
     </div>
   </div>
