@@ -124,6 +124,12 @@
     "tital-three":"Quick Links",
     "loc":"Tulkarm Complex - Fifth Floor, St. Medina, Amman 11118"
   },
+  "our-service-lms": {
+    "number":"0782028246",   
+    "T1":"Call Us",
+     
+    "T2":" If you are interested in our services, please don't hesitate to contact us"
+  },
   "lms": {
     "t":"all services",
     "t1":"Electronic Examination System",
@@ -150,17 +156,27 @@
     "number":"0782028246",
 
 
-    "question":"How can we help",
+    "question":"How can we help?",
     "services-one":"If you are an existing platform owner",
     "services-two":"Looking to get started on your platform",
     "services-three":"A school, educational or training institution",
     "s1":"If you are a platform owner currently facing technical issues on your platform, looking to add new features and develop the platform, or finding that the operating costs are high and there is no content protection system in place, we can help you through our team. Just contact us and we will be at your service.",
     "s2":"If you are looking to start your platform, we are here to provide you with all the services you need as an educational or training content creator to create and sell courses online. Our services include website design and development, visual identity, production and editing of educational content, assistance in uploading educational content, and managing the platform in the initial stage, as well as providing e-commerce services or direct sales through the platform.",
-    "s3":"Looking for a system to manage the educational process in your institution We offer you comprehensive solutions that include: A system for managing student registrations and subscriptions, organizing and following them. A platform for managing educational content effectively and easily. A modern website design that matches your organization and a visual identity that distinguishes it. Contact us to provide you with technical solutions that meet the needs of your organization and facilitate the management and organization process."
+    "s3":"Looking for a system to manage the educational process in your institution We offer you comprehensive solutions that include: A system for managing student registrations and subscriptions, organizing and following them. A platform for managing educational content effectively and easily. A modern website design that matches your organization and a visual identity that distinguishes it. Contact us to provide you with technical solutions that meet the needs of your organization and facilitate the management and organization process.",
  
- 
- 
- 
+ "q":"FAQ",
+    "q1":"Can you transfer the students of my old platform, courses and videos to a new platform Or do I need to transfer them manually",
+    "a1":"Yes, we can transfer all data from the old platform, including students, teachers, courses and their contents.",
+    "q2":"Can I sell courses in more than one country within the student's country currency",
+    "a2":"Yes, you can sell in several countries and make the currency to be paid in is the currency of the student's country .",
+    "q3":"Is there a higher limit on the number of students or courses",
+    "a3":"There is no limit to the number of students or content",
+    "q4":"Can I start with an individual platform for one teacher and then develop it into a group of teachers",
+    "a4":"Yes, the platform can be developed from an individual to any collective and be for a group of teachers that has the advantages of the collective platform in terms of courses, reports and presentation method.",
+    "q5":"Can the teacher follow up his students and courses and adjust to them",
+    "a5":"Yes, the teacher can use his account as a teacher to communicate with students or to edit his courses so that he adds videos and files for the course and also enables him to create exams and quizzes.",
+    "q6":"Can the platform handle a large number of students at a certain moment, such as the exam period",
+    "a6":"Yes, the platform can accommodate an unlimited number of students simultaneously without interrupting the service or landing the platform."
  
   },
   "security-section": {
@@ -240,12 +256,7 @@
     "Conclusionb":" At deep service solution, we understand the critical importance of cybersecurity in today's digital landscape. With our comprehensive suite of services, we empower organizations to proactively defend against cyber threats and safeguard their valuable assets. Partner with us to strengthen your security posture and achieve peace of mind in an increasingly connected world."
   },
 
-  "our-service-lms": {
-    "number":"0782028246",   
-    "T1":"اتصل بنا",
-     
-    "T2":" If you are interested in our services, please don't hesitate to contact us"
-  },
+ 
 
   " app-clients-section": {},
 
