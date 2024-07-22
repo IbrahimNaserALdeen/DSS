@@ -48,13 +48,13 @@ body {
   border-radius: 2px;
   transform: rotate(-45deg);
 }
-
+/* left: 0; */
 .section-title::before {
   position: absolute;
   content: "";
   width: 150px;
   height: 5px;
-  left: 0;
+  
   bottom: 0;
   background: #096c7c !important;
   border-radius: 2px;

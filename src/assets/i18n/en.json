@@ -10,9 +10,9 @@
   },
 
   "featuer-facts": {
-    "T1": "Happy Studant",
-    "T2": "Projects Done",
-    "T3": "Win Awards"
+    "T1": "Learned Students",
+    "T2": "Completed Projects",
+    "T3": "Customer Satisfaction"
   },
  
   "clients-section": {
@@ -63,7 +63,7 @@
     "tital-tow":"We Are Here to Grow Your Business Exponentially",
     "icon-tital-one":"Professional Staff",
     "icon-tital-two":"Best In Industry",
-    "icon-tital-three":"24/7 Support",
+    "icon-tital-thre":"24/7 Support",
     "icon-tital-four":"Award Winning",
     "icon-body-one":"Our professional staff is dedicated to delivering exceptional service and expertise, ensuring top-quality results and client satisfaction.",
     "icon-body-two":"Our company is a leader in the industry, Trust us for top-tier solutions and excellence.",
@@ -96,6 +96,8 @@
     "icon-tital-one":"Reply within 24 hours",
     "icon-tital-two":"24 hrs telephone support",
     "icon-body-one":"Ready to elevate your online presence? Get in touch for a complimentary quote and discover how our IT solutions can redefine your digital landscap"  ,
+    "icon-body-one1":"24 hours"  ,
+
     "question":"Call to ask any question",
     "contact":"REQUEST A QUOTE",
     "number":"0782028246",

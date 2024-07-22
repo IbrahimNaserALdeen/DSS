@@ -249,14 +249,13 @@ h6,
     height: 3rem;
 }
 
-
+/* left: 0; */
 /*** Section Title ***/
 .section-title::before {
     position: absolute;
     content: "";
     width: 150px;
     height: 5px;
-    left: 0;
     bottom: 0;
     background: var(--primary);
     border-radius: 2px;
