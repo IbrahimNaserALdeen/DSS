@@ -326,22 +326,22 @@
               <div class="col-sm-6 p-4">
 
                 <div class="text-center">
-                  <div class="h3 fw-light">Contact Form</div>
-                  <p class="mb-4 text-muted">Split layout contact form</p>
+                  <div class="h3 fw-light"> {{ "home-contact-us.ContactForm" | translate }}</div>
+                  <p class="mb-4 text-muted">{{ "home-contact-us.text" | translate }}</p>
                 </div>
   
                 <form id="contactForm" (ngSubmit)="submitForm()" #contactForm="ngForm">
                   <!-- Name Input -->
                   <div class="form-floating mb-3">
                     <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" name="name" [(ngModel)]="formData.name" required />
-                    <label for="name">Name</label>
+                    <label for="name">{{ "home-contact-us.name" | translate }}</label>
                     <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                   </div>
   
                   <!-- Email Input -->
                   <div class="form-floating mb-3">
                     <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" name="emailAddress" [(ngModel)]="formData.emailAddress" required />
-                    <label for="emailAddress">Email Address</label>
+                    <label for="emailAddress">{{ "home-contact-us.email" | translate }}</label>
                     <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
                     <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                   </div>
@@ -349,13 +349,13 @@
                   <!-- Message Input -->
                   <div class="form-floating mb-3">
                     <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required" name="message" [(ngModel)]="formData.message" required></textarea>
-                    <label for="message">Message</label>
+                    <label for="message">{{ "home-contact-us.message" | translate }}</label>
                     <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                   </div>
   
                   <!-- Submit button -->
                   <div class="d-grid">
-                    <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid">Submit</button>
+                    <button class="btn btn-primary btn-lg" type="submit" [disabled]="!contactForm.valid">{{ "home-contact-us.Submit" | translate }}</button>
                   </div>
                 </form>
                 <!-- End of contact form -->

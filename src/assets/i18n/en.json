@@ -116,9 +116,10 @@
     "loc2":"St. Medina, Amman 11118",
     "email":"Email",
     "name":"Your Name",
-    "message":"Message"
-
-
+    "message":"Message",
+    "ContactForm":"Contact Form",
+    "text":"Split layout contact form ",
+    "Submit":"Submit"
   },
   "footer": {
     "tital-one":"We are working to build a better future in line with the latest developments in the world of software solutions by making the customer-centricity focus of our attention, which will achieve them easier work that is compatible with the world digital evolution",
