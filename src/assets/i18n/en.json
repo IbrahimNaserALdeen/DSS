@@ -92,7 +92,9 @@
 
   "home-contact-us": {
     "tital-one":"REQUEST A QUOTE",
-    "tital-tow":"Need A Free Quote? Please Feel Free to Contact Us",
+ "tital-tow": "Need A Free Quote?",
+ "tital-tow2": "Please Feel Free to Contact Us",
+
     "icon-tital-one":"Reply within 24 hours",
     "icon-tital-two":"24 hrs telephone support",
     "icon-body-one":"Ready to elevate your online presence? Get in touch for a complimentary quote and discover how our IT solutions can redefine your digital landscap"  ,
@@ -214,7 +216,7 @@
     "sbttk3_6":"Post-Exploitation Analysis: Network PT includes post-exploitation analysis to assess the consequences of a successful cyber attack, including data exfiltration,privilege escalation, lateral movement, and other potential security breaches, helping the organization understand the full scope of the security incident.",
     "sbttk3_7":"Comprehensive Reporting: Network PT provides a detailed report of the findings, including a summary of the testing methodology, identified vulnerabilities, exploited systems, and actionable recommendations for remediation, enabling the organization to strengthen its security posture effectively.",
     "sbttk3_8":" Compliance Support: Network PT helps organizations meet regulatory compliance requirements by identifying vulnerabilities that may impact compliance with industry standards and regulations, such as PCI DSS, HIPAA, GDPR, and others.",
-    "st4":"IWeb Application Penetration Testing",
+    "st4":"Web Application Penetration Testing",
     "sb4":"Web Application Penetration Testing (WAPT) is ....",
     "sbt4":"Web Application Penetration Testing",
     "sbtt4":"Web Application Penetration Testing (WAPT) is a proactive cybersecurity practice aimed at identifying and addressing vulnerabilities within web applications. It involves simulating real-world cyber attacks to assess the security posture of web applications and identify potential weaknesses that could be exploited by malicious actors. WAPT goes beyond traditional vulnerability scanning by actively attempting to exploit identified vulnerabilities to assess the potential impact on the organization's assets, data, and operations.",
