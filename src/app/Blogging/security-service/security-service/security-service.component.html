@@ -331,8 +331,11 @@
               aria-hidden="true"
             ></i>
           </div>
-          <h4 class="mb-3">{{ "security-section.st5" | translate }}   </h4>
-          <p class="m-0">{{ "security-section.sb5" | translate }}</p>
+          <h4 class="mb-3">
+            <!-- {{ "security-section.st5" | translate }}   -->
+            <p class="m-0">{{ "security-section.sb5" | translate }}</p>
+
+           </h4>
           <a class="btn btn-lg btn-primary rounded" (click)="openModal('five')">
             <!-- <i class="bi bi-arrow-right"></i> -->
             {{ "security-section.Readmore" | translate }} 

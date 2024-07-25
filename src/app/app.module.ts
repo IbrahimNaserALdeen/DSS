@@ -52,6 +52,7 @@ import { SecurityPageComponent } from './pages/security-page/security-page/secur
 import { SecurityServiceComponent } from './Blogging/security-service/security-service/security-service.component';
 import { SecurityScreenComponent } from './Blogging/security-screen/security-screen/security-screen.component';
 import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/graphic-design-screen/graphic-design-screen.component';
+import { DigitalMarketingScreenComponent } from './Blogging/digital_marketing/digital_marketing-screen/digital-marketing-screen/digital-marketing-screen.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -102,6 +103,7 @@ import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/g
     OurServicesBackToTopComponent,
     ContactWithUsComponent,
     GraphicDesignComponent,
+    DigitalMarketingScreenComponent,
   ],
   imports: [
     BrowserModule,
