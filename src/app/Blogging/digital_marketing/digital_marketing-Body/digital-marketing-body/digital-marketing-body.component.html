@@ -1,0 +1,20 @@
+<main class="main flow">
+    <div class="container">
+      <h1 class="main__heading">Pricing</h1>
+      <div class="main__cards cards">
+        <div class="cards__inner">
+          <div class="cards__card card" *ngFor="let card of cards">
+            <h2 class="card__heading">{{ card.heading }}</h2>
+            <p class="card__price">{{ card.price }}</p>
+            <ul role="list" class="card__bullets flow">
+              <li *ngFor="let bullet of card.bullets">{{ bullet }}</li>
+            </ul>
+            <a href="#{{ card.link }}" class="card__cta cta">{{ card.ctaText }}</a>
+          </div>
+        </div>
+        <div class="overlay cards__inner"></div>
+      </div>
+    </div> 
+  </main>
+  
+  

@@ -6,7 +6,10 @@
     "Contact": "أتصل بنا",
     "Gallery":"البوم الصور",
     "Services":"خدمة",
-    "Security":"خدماتنا الأمنية"
+    "Security":"خدماتنا الأمنية"    ,
+     "digital": "تسويق الرقمي",
+     "Security1":"خدمات الأمنية",
+      "lms":"LMS خدمات "
   },
 
   "app-home-section": {

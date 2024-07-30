@@ -8,6 +8,7 @@ import { ContactUsPageComponent } from './pages/contact_us_page/contact-us-page/
 import { LmsPageComponent } from './pages/lms/lms-page/lms-page.component';
 import { GalleryPageComponent } from './pages/gallery_page/gallery-page/gallery-page.component';
 import { SecurityPageComponent } from './pages/security-page/security-page/security-page.component';
+import { DigitalPsgeComponent } from './pages/digital-psge/digital-psge.component';
 
 const routes: Routes = [
   { path: 'AboutUs', component: AboutpageComponent },
@@ -17,7 +18,7 @@ const routes: Routes = [
   { path: 'ContactUs', component: ContactUsPageComponent },
   { path: 'Home/Lms', component: LmsPageComponent },
   { path: 'Gallery', component: GalleryPageComponent },
- 
+  { path: 'Home/Digital', component: DigitalPsgeComponent },
   { path: 'Home/Security', component:  SecurityPageComponent },
 ];
 

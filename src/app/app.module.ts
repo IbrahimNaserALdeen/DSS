@@ -55,6 +55,9 @@ import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/g
 import { DigitalMarketingScreenComponent } from './Blogging/digital_marketing/digital_marketing-screen/digital-marketing-screen/digital-marketing-screen.component';
 import { NewTeamComponent } from './Blogging/new_team/new-team/new-team.component';
 import { MarqueSocialIconsComponent } from './Blogging/Marque_Social_Icons/marque-social-icons/marque-social-icons.component';
+import { DigitalMarketingBodyComponent } from './Blogging/digital_marketing/digital_marketing-Body/digital-marketing-body/digital-marketing-body.component';
+import { DigitalMarketingBodyPointComponent } from './Blogging/digital_marketing/digital-marketing-body-point/digital-marketing-body-point.component';
+import { DigitalPsgeComponent } from './pages/digital-psge/digital-psge.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -108,6 +111,9 @@ import { MarqueSocialIconsComponent } from './Blogging/Marque_Social_Icons/marqu
     DigitalMarketingScreenComponent,
     NewTeamComponent,
     MarqueSocialIconsComponent,
+    DigitalMarketingBodyComponent,
+    DigitalMarketingBodyPointComponent,
+    DigitalPsgeComponent,
   ],
   imports: [
     BrowserModule,
