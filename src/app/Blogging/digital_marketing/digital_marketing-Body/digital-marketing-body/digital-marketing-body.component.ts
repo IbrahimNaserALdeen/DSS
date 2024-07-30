@@ -6,7 +6,13 @@ import { Component, OnInit, ElementRef, Renderer2, AfterViewInit } from '@angula
   styleUrls: ['./digital-marketing-body.component.css']
 })
 export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
+  whatsappNumber: string = '0782028246'; // Replace with actual number
+  message: string = 'I would like to order now';
 
+  get whatsappLink(): string {
+    const encodedMessage = encodeURIComponent(this.message);
+    return `https://wa.me/${this.whatsappNumber}?text=${encodedMessage}`;
+  }
   cards = [
     {
       heading: 'Basic',
@@ -18,7 +24,7 @@ export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
         '5 Static posts',
         'Monthly Performance report'
       ],
-      link: 'basic',
+      link: this.whatsappLink,
       ctaText: 'Get Started'
     },
     {
@@ -32,7 +38,7 @@ export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
         'Monthly Performance report',
         "Assessment & Support Visits"
       ],
-      link: 'pro',
+      link: this.whatsappLink,
       ctaText: 'Upgrade to Pro'
     },
     // {
@@ -59,7 +65,7 @@ export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
         "2 Assessment & Support Visits",
         'Marketing Campaign Strategy'
       ],
-      link: 'ultimate',
+      link: this.whatsappLink,
       ctaText: 'Go Ultimate'
     }
   ];

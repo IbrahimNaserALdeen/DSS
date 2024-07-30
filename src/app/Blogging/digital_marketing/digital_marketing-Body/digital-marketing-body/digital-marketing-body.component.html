@@ -9,7 +9,8 @@
             <ul role="list" class="card__bullets flow">
               <li *ngFor="let bullet of card.bullets">{{ bullet }}</li>
             </ul>
-            <a href="#{{ card.link }}" class="card__cta cta">{{ card.ctaText }}</a>
+            
+            <a [href]="whatsappLink" class="card__cta cta">{{ card.ctaText }}</a>
           </div>
         </div>
         <div class="overlay cards__inner"></div>
