@@ -39,7 +39,7 @@ export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
         "Assessment & Support Visits"
       ],
       link: this.whatsappLink,
-      ctaText: 'Upgrade to Pro'
+      ctaText: 'Get Started'
     },
     // {
     //   heading: 'Ultimate',
@@ -66,7 +66,7 @@ export class DigitalMarketingBodyComponent   implements OnInit, AfterViewInit {
         'Marketing Campaign Strategy'
       ],
       link: this.whatsappLink,
-      ctaText: 'Go Ultimate'
+      ctaText: 'Get Started'
     }
   ];
 
