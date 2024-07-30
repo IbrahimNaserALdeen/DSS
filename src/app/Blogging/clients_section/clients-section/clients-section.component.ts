@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import Swiper from 'swiper';
 
 @Component({
@@ -10,6 +11,11 @@ export class ClientsSectionComponent implements AfterViewInit {
   @ViewChild('galleryThumbs') galleryThumbs: any;
   @ViewChild('testimonial') testimonial: any;
 
+  constructor(
+    public TranslateObj : TranslateService
+   ){ 
+    TranslateObj.setDefaultLang('en');
+   }
   ngAfterViewInit(): void {
     var galleryThumbs = new Swiper(this.galleryThumbs.nativeElement, {
       effect: 'coverflow',

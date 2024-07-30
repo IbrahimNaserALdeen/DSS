@@ -53,6 +53,8 @@ import { SecurityServiceComponent } from './Blogging/security-service/security-s
 import { SecurityScreenComponent } from './Blogging/security-screen/security-screen/security-screen.component';
 import { GraphicDesignScreenComponent } from './Blogging/graphic-design-screen/graphic-design-screen/graphic-design-screen.component';
 import { DigitalMarketingScreenComponent } from './Blogging/digital_marketing/digital_marketing-screen/digital-marketing-screen/digital-marketing-screen.component';
+import { NewTeamComponent } from './Blogging/new_team/new-team/new-team.component';
+import { MarqueSocialIconsComponent } from './Blogging/Marque_Social_Icons/marque-social-icons/marque-social-icons.component';
 
 //import { TopbarStartComponent } from './Blogging/about_section/topbar-start/topbar-start.component';
 // Import OwlModule
@@ -104,6 +106,8 @@ import { DigitalMarketingScreenComponent } from './Blogging/digital_marketing/di
     ContactWithUsComponent,
     GraphicDesignComponent,
     DigitalMarketingScreenComponent,
+    NewTeamComponent,
+    MarqueSocialIconsComponent,
   ],
   imports: [
     BrowserModule,
